@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_filter_tab"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/transparent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dip"
+            android:orientation="horizontal"
+            android:background="@android:color/white"
+            android:paddingBottom="0dp"
+            android:paddingTop="0dp">
+
+            <!--<ImageView-->
+                <!--android:id="@+id/btn_refresh_poems"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1.0"-->
+                <!--android:src="@drawable/ic_refresh_black_24dp"-->
+                <!--android:scaleType="center"/>-->
+
+            <ImageView
+                android:id="@+id/btn_closepoems"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:src="@drawable/ic_done_black_24dp"
+                android:paddingLeft="250dp"/>
+
+        </LinearLayout>>
+
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@android:color/darker_gray"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/poem_listView"
+        android:layout_width="match_parent"
+        android:layout_height="100.0dip"
+        android:background="@android:color/white"
+        android:padding="5.0dip"
+        android:scrollbars="none" />
+
+
+
+    <!--<ImageView-->
+        <!--android:background="@android:color/white"-->
+        <!--android:id="@+id/btn_closepoems"-->
+        <!--android:layout_width="match_parent" -->
+        <!--android:layout_height="26dip"-->
+        <!--android:scaleType="center"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:src="@drawable/btn_layout_filters_bar_close" />-->
+</LinearLayout>

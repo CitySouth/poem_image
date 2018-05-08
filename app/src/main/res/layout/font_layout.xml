@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="bottom"
+    android:layout_height="81.0dip"
+    android:paddingTop="5dip"
+    android:paddingLeft="60dp"
+    android:paddingRight="60dp"
+    android:paddingBottom="5dip"
+    android:layout_alignParentBottom="true"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/kaiti"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+        android:id="@+id/font_kaiti"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/xingshu"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/font_xingshu"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/songti"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/font_songti"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/huakang"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/font_huakang"/>
+
+</LinearLayout>
